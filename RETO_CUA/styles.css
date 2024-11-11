@@ -1,0 +1,187 @@
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    background-image: url("imagenes/fondo.jpeg"); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover;  
+    font-family: 'Inika', serif;  
+    line-height: 1.6;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+}  
+
+header {  
+    text-align: center;  
+    padding: 2rem 0;  
+}  
+
+header p {  
+    font-size: 24px; 
+    color: white;  
+}  
+
+header h1 {  
+    color: #ffffff;  
+    font-size: 50px;  
+}  
+
+nav ul {  
+    list-style-type: none;  
+    display: flex;  
+    gap: 1rem;  
+    padding: 1rem;  
+    background-color: #333;  
+    width: 100%;  
+    justify-content: center;  
+}  
+
+nav ul li a {  
+    font-size: 24px;
+    color: white;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+
+.hero {  
+    font-size: 32px;
+    color: white;
+    display: flex; 
+    padding: 2rem;  
+    max-width: 900px;  
+    align-items: center; /* Centramos verticalmente los elementos */  
+    gap: 2rem; /* Espacio entre el texto y la imagen */  
+}  
+
+.hero-content {  
+    flex: 1; /* Permite que el contenido del héroe ocupe el espacio disponible */  
+}  
+
+.hero-image {  
+    flex: 1; /* Permite que la imagen ocupe el espacio disponible */  
+}  
+
+.hero-image img {  
+    width: 100%; /* La imagen ocupa el 100% del contenedor */  
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados para la imagen */  
+}  
+
+.about, .projects { 
+    font-size: 32px;
+    color: white;   
+    padding: 2rem;  
+    text-align: center;  
+    max-width: 900px;  
+}  
+
+.projects {  
+    display: flex;  
+    gap: 2rem;  
+    justify-content: center;  
+    flex-wrap: wrap;  
+}  
+
+.project {  
+    background: #f0f0f0;  
+    border-radius: 8px;  
+    padding: 1rem;  
+    width: 250px;  
+}  
+
+.project img {  
+    width: 100%;  
+    border-radius: 8px;  
+}  
+
+.contact-section form {  
+    display: flex;  
+    flex-direction: column;  
+    gap: 1rem;  
+    max-width: 600px;  
+    margin: auto;  
+}  
+
+footer {  
+    padding: 1rem;  
+    background: #333;  
+    color: white;  
+    text-align: center;  
+    width: 100%;  
+}  
+
+.social-media {  
+    list-style-type: none;  
+    display: flex;  
+    gap: 1rem;  
+    justify-content: center;  
+    margin-top: 1rem;  
+}  
+
+.social-media li a {  
+    color: white;  
+    text-decoration: none;  
+}
+
+.idols {  
+    padding: 2rem;  
+    text-align: center;  
+    max-width: 900px;  
+    margin: auto; /* Centrar la sección */  
+}  
+
+.idol {  
+    display: flex;  
+    align-items: center;  
+    gap: 2rem; /* Espacio entre la imagen y la información */  
+    margin-bottom: 2rem; /* Espacio entre ídolos */  
+    background: #f0f0f0; /* Fondo para mejorar la visibilidad */  
+    border-radius: 8px;  
+    padding: 1rem;  
+}  
+
+.idol img {  
+    width: 150px; /* Tamaño común para todas las imágenes */  
+    height: 150px; /* Asegura que todas tengan la misma altura */  
+    border-radius: 8px; /* Bordes redondeados para la imagen */  
+    object-fit: cover; /* Asegura que la imagen mantenga su aspecto */  
+}  
+
+.idols h2{
+    color: white;
+}
+
+.idol-info {  
+    text-align: left; /* Alinear texto a la izquierda */  
+}  
+
+.idol h3 {  
+    font-size: 28px;
+    margin-bottom: 0.5rem; 
+}  
+
+.idol p {  
+    font-size: 18px;
+    color: #333; 
+}
+
+#loading-screen {  
+    position: fixed;  
+    top: 0;  
+    left: 0;  
+    width: 100%;  
+    height: 100%;  
+    background-color: rgba(202, 202, 202, 0.8); /* Fondo blanco con algo de transparencia */  
+    z-index: 1000; /* Asegúrate de que esté por encima del contenido */  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    font-size: 80px; /* Tamaño del texto */  
+    color: #970000; 
+}
+
